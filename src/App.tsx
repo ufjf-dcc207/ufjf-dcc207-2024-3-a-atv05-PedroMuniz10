@@ -7,7 +7,7 @@ export default function App() {
     <div className='app'>
       <Dependente nome={funcionarios.funcionarios[0].dependentes[0].nome} 
       data={funcionarios.funcionarios[0].dependentes[0].data_nascimento} 
-      salario={funcionarios.funcionarios[0].dependentes[0].abono_salarial}   />
+      salario={funcionarios.funcionarios[0].dependentes[0].abono_salarial}/>
     </div>
   )
 }
